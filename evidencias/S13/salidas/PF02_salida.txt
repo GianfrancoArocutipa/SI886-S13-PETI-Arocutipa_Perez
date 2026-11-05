@@ -1,0 +1,38 @@
+﻿=== COSTO TOTAL DE PROPIEDAD A 5 AÑOS (AGROEXPORTADORA VALLE VIEJO S.A.C.) ===
+codigo  inv_inicial  costo_unico  costo_anual  costo_salida    tco_5  factor_tco  pct_operativo incertidumbre               rango_tco_5
+ PR-09       145000       230000     110100.0         18000 780500.0        5.38           70.5         ±50 % S/ 390,250 - S/ 1,170,750
+ PR-03        78000       101000      71640.0          6500 459200.0        5.89           78.0         ±40 %   S/ 275,520 - S/ 642,880
+ PR-04        92000       128000      59400.0          7500 425000.0        4.62           69.9         ±35 %   S/ 276,250 - S/ 573,750
+ PR-01        55000        81000      41850.0          4500 290250.0        5.28           72.1         ±30 %   S/ 203,175 - S/ 377,325
+ PR-05        34000        52000      25500.0          3000 179500.0        5.28           71.0         ±30 %   S/ 125,650 - S/ 233,350
+ PR-08        42000        46000      23040.0          3500 161200.0        3.84           71.5         ±25 %   S/ 120,900 - S/ 201,500
+ PR-06        28000        43000      22200.0          2500 154000.0        5.50           72.1         ±25 %   S/ 115,500 - S/ 192,500
+ PR-13        26000        41000      18900.0          2200 135500.0        5.21           69.7         ±30 %    S/ 94,850 - S/ 176,150
+ PR-10        22000        28000      20200.0          1800 129000.0        5.86           78.3         ±25 %    S/ 96,750 - S/ 161,250
+ PR-12        19000        26000      11880.0          1500  85400.0        4.49           69.6         ±25 %    S/ 64,050 - S/ 106,750
+ PR-02        18000        21000      10800.0          1500  75000.0        4.17           72.0         ±20 %     S/ 60,000 - S/ 90,000
+ PR-07        15000        20000       9300.0          1200  66500.0        4.43           69.9         ±20 %     S/ 53,200 - S/ 79,800
+ PR-11         6000         8000       3000.0             0  23000.0        3.83           65.2         ±15 %     S/ 19,550 - S/ 26,450
+
+Inversión inicial total        : S/ 580,000
+Costos únicos totales (CapEx+) : S/ 825,000
+Costo operativo anual total    : S/ 427,810 / año
+TCO total a 5 años (base)      : S/ 2,964,050
+Costo de salida acumulado      : S/ 53,700
+TCO total incluyendo salida    : S/ 3,017,750
+Factor TCO/inversión inicial   : 5.11x
+
+-> El TCO es 5.1 veces la inversión inicial. Presentar solo la inversión
+   inicial ante la gerencia subestima el compromiso en S/ 2,384,050.
+-> Además, en Agroexportadora Valle Viejo S.A.C. el gasto real en 'Servicio informático'
+   (pagos.csv: S/ 1,475,059.22 en 2025) equivale a 3.4 veces el costo operativo anual
+   de todo el nuevo portafolio (S/ 427,810/año), lo que demuestra que ordenar y consolidar
+   proveedores financia ampliamente la operación recurrente del portafolio.
+
+=== PROYECTOS CON MAYOR PROPORCIÓN DE COSTO OPERATIVO ===
+codigo    tco_5  pct_operativo  factor_tco
+ PR-10 129000.0           78.3        5.86
+ PR-03 459200.0           78.0        5.89
+ PR-01 290250.0           72.1        5.28
+ PR-06 154000.0           72.1        5.50
+-> Estos comprometen el presupuesto recurrente durante años: exigen mayor escrutinio.

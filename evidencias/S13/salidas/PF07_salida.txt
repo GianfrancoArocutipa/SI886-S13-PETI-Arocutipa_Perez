@@ -1,0 +1,22 @@
+﻿=== PASO F: VALIDACIÓN INTEGRAL DEL PORTAFOLIO (AGROEXPORTADORA VALLE VIEJO S.A.C.) ===
+
+[Comprobación 1] Trazabilidad a objetivos y fuentes admisibles (>= 12 proyectos):
+  - Total de proyectos admitidos       : 13 (requisito >= 12)
+  - Proyectos sin objetivo estratégico : 0
+  - Proyectos con fuente no admisible  : 0
+  -> Resultado Comprobación 1          : CONFORME
+
+[Comprobación 2] Integridad de alcance en fusiones y fichas estandarizadas (20 campos):
+  - Fusión C-02 + C-11 en PR-02 preserva RAT + programa ARCO/ANPD : SÍ
+  - Fusión C-04 + C-05 en PR-04 preserva portal B2B + embarques   : SÍ
+  - Fichas con los 20 campos completos en PF03_fichas/            : 13/13
+  -> Resultado Comprobación 2                                     : CONFORME
+
+[Comprobación 3] Consistencia de TCO a 5 años y casos de negocio:
+  - Todos los proyectos incluyen costo operativo a 5 años (TCO > Inv. Inicial): SÍ
+  - Exactitud aritmética (TCO_5 = Costo_Único + 5 × Costo_Anual)              : SÍ
+  - Tres casos de negocio con 3 alternativas c/u (incluida 'No hacer nada')   : SÍ
+  -> Resultado Comprobación 3                                                 : CONFORME
+
+=== DICTAMEN FINAL DE VALIDACIÓN ===
+Estado general: 100% VALIDADO Y CONFORME

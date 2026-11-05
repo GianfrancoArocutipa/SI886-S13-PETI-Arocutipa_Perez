@@ -1,0 +1,27 @@
+﻿
+====================================================================================================
+CASO DE NEGOCIO: PR-09 (AGROEXPORTADORA VALLE VIEJO S.A.C.)
+                                                            alternativa  inv_inicial  costo_unico  costo_anual  costo_5  beneficio_5  neto_5  retorno
+                                                       A. No hacer nada            0            0            0        0      -900000 -900000      NaN
+B. Consolidar y migrar a versión soportada del ERP actual (Recomendada)       145000       230000       110100   780500      1175000  394500     50.5
+                   C. Reemplazar por un nuevo ERP agroindustrial Tier-1       260000       370000       138000  1060000      1250000  190000     17.9
+-> Mayor beneficio neto a 5 años: B. Consolidar y migrar a versión soportada del ERP actual (Recomendada) (Neto: S/ 394,500 | ROI 5a: 50.5%)
+-> Costo de la inacción a 5 años: S/ 900,000 (S/ 180,000/año)
+
+====================================================================================================
+CASO DE NEGOCIO: PR-03 (AGROEXPORTADORA VALLE VIEJO S.A.C.)
+                                                                      alternativa  inv_inicial  costo_unico  costo_anual  costo_5  beneficio_5  neto_5  retorno
+                                                                 A. No hacer nada            0            0            0        0      -560000 -560000      NaN
+B. Capa de integración API Gateway gestionada y conectores estándar (Recomendada)        78000       101000        71640   459200       690000  230800     50.3
+                                           C. Suite iPaaS empresarial propietaria       155000       190000       104000   710000       740000   30000      4.2
+-> Mayor beneficio neto a 5 años: B. Capa de integración API Gateway gestionada y conectores estándar (Recomendada) (Neto: S/ 230,800 | ROI 5a: 50.3%)
+-> Costo de la inacción a 5 años: S/ 560,000 (S/ 112,000/año)
+
+====================================================================================================
+CASO DE NEGOCIO: PR-04 (AGROEXPORTADORA VALLE VIEJO S.A.C.)
+                                                                                 alternativa  inv_inicial  costo_unico  costo_anual  costo_5  beneficio_5  neto_5  retorno
+                                                                            A. No hacer nada            0            0            0        0      -475000 -475000      NaN
+B. Rediseño del portal existente sobre API (PR-03) + trazabilidad de embarques (Recomendada)        92000       128000        59400   425000       725000  300000     70.6
+                                C. Nueva plataforma SaaS B2B de comercio exterior desde cero       210000       255000        84000   675000       825000  150000     22.2
+-> Mayor beneficio neto a 5 años: B. Rediseño del portal existente sobre API (PR-03) + trazabilidad de embarques (Recomendada) (Neto: S/ 300,000 | ROI 5a: 70.6%)
+-> Costo de la inacción a 5 años: S/ 475,000 (S/ 95,000/año)

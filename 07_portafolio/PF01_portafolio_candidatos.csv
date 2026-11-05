@@ -1,0 +1,14 @@
+codigo,nombre,fuente,seccion_origen,objetivo,categoria,candidato_origen
+PR-01,"Gobierno del dato maestro (lotes agrícolas, productores y clientes)",Brecha de arquitectura,Sección 5.4.2 PT-01,"OD-02, OD-03",Transformar,C-01
+PR-02,Programa de cumplimiento de datos personales y Registro de Actividades de Tratamiento (RAT),Obligación normativa,Sección 4.1.5,OD-05,Operar,C-02 + C-11
+PR-03,Capa de integración de servicios API (ERP - Planta - Campo - Aduanas),Brecha de arquitectura,Sección 5.4.2 PT-02,"OD-01, OD-03",Operar,C-03
+PR-04,Rediseño del portal B2B de agroexportación y consulta de embarques en autoservicio,Brecha de servicio digital,"Sección 6.1.7 S-01, S-02",OD-01,Crecer,C-04 + C-05
+PR-05,"Planificación inteligente de rutas de acopio, cadena de frío y trazabilidad de despacho",Estrategia FODA,Sección 3.5 E-02,OD-03,Transformar,C-06
+PR-06,"Tablero de gestión comercial, costos por lote y rentabilidad de exportación",Brecha de arquitectura,Sección 5.4.2 PT-05,OD-02,Crecer,C-07
+PR-07,Mesa de servicio de TI y control centralizado de proveedores informáticos,Brecha de capacidad,Sección 4.3.5 DSS02,OD-04,Operar,C-08
+PR-08,"Continuidad de infraestructura, conmutación de enlace redundante y respaldo inmutable",Brecha de capacidad,Sección 4.3.5 DSS04,OD-04,Operar,C-09
+PR-09,Renovación y consolidación de la plataforma del ERP agroindustrial,Estrategia FODA,Sección 3.5 E-04,"OD-04, OD-03",Operar,C-10
+PR-10,Gestión del conocimiento y base de datos de configuración (CMDB),Estrategia FODA,Sección 3.5 E-07,OD-06,Operar,C-12
+PR-11,Comité de gobierno e inversiones de TI (casos de negocio y actas de beneficio),Brecha de capacidad,"Sección 4.3.5 EDM01, APO05, EDM02","OD-02, OD-04",Operar,C-13
+PR-12,"Instrumentación de monitoreo y disponibilidad (cámaras de frío, enlace y ERP)",Brecha de capacidad,Sección 4.3.5 DSS01,OD-04,Operar,C-14
+PR-13,"Autoservicio digital de trabajadores de campo y planta (boletas, destajo y vacaciones)",Brecha de servicio digital,"Sección 6.1.7 S-06, S-07","OD-01, OD-05",Crecer,C-15

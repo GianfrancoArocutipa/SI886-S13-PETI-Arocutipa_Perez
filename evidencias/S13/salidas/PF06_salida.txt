@@ -1,0 +1,22 @@
+﻿=== ORDEN TOPOLÓGICO (SECUENCIA OBLIGADA — AGROEXPORTADORA VALLE VIEJO S.A.C.) ===
+PR-01 -> PR-02 -> PR-03 -> PR-07 -> PR-08 -> PR-11 -> PR-04 -> PR-05 -> PR-06 -> PR-09 -> PR-13 -> PR-10 -> PR-12
+
+=== PROYECTOS HABILITADORES (MAYOR GRADO DE SALIDA) ===
+  PR-03: habilita 5 proyecto(s) (PR-04, PR-05, PR-06, PR-09, PR-13) -> prioridad estructural
+  PR-01: habilita 4 proyecto(s) (PR-04, PR-05, PR-06, PR-09) -> prioridad estructural
+  PR-07: habilita 1 proyecto(s) (PR-10) -> prioridad estructural
+  PR-08: habilita 1 proyecto(s) (PR-12) -> prioridad estructural
+
+=== PROYECTOS SIN DEPENDENCIAS PREVIAS (PUEDEN INICIAR EN OLA 1) ===
+  PR-01, PR-02, PR-03, PR-07, PR-08, PR-11
+
+=== PROYECTOS DEPENDIENTES (REQUIEREN HABILITADORES PREVIOS) ===
+  PR-04 requiere haber completado: PR-01, PR-03
+  PR-05 requiere haber completado: PR-01, PR-03
+  PR-06 requiere haber completado: PR-01, PR-03
+  PR-09 requiere haber completado: PR-01, PR-03
+  PR-10 requiere haber completado: PR-07
+  PR-12 requiere haber completado: PR-08
+  PR-13 requiere haber completado: PR-03
+
+Gráfico generado: ../graficos/PF_dependencias.png

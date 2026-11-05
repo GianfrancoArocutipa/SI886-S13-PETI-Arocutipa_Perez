@@ -1,0 +1,52 @@
+﻿=== 1. CONTROL DE ADMISIÓN (AGROEXPORTADORA VALLE VIEJO S.A.C.) ===
+Candidatos brutos recibidos: 17
+Candidatos sin fuente admisible: 1 -> se retiran: ['C-16']
+  - Retirado C-16 (Adquisición de software departamental aislado por pedido verbal de área usuaria): fuente 'Solicitud verbal de área usuaria' no pertenece a las 5 fuentes admisibles.
+Candidatos sin objetivo asociado: 1 -> se retiran: ['C-17']
+  - Retirado C-17 (Remodelación visual de boletín interno sin indicador asociado): carece de objetivo estratégico en la Sección 6.2.
+
+=== 2. DEPURACIÓN Y FUSIÓN DE DUPLICADOS ===
+  - Fusión C-05 -> C-04: C-05 (Consulta de estado de embarque y lotes fitosanitarios) se incorpora como entregable del portal B2B en C-04 (Sección 6.1.7 S-01, S-02), corrigiendo de forma unificada el Portal de autoservicio INV03 (S/ 224,964.21 ejecutados en 2024 sin medición de beneficios).
+  - Fusión C-11 -> C-02: C-11 (Programa de cumplimiento de datos personales) y C-02 (Registro de actividades de tratamiento) responden a la misma obligación legal (Ley N.º 29733 y D.S. 016-2024-JUS, Sección 4.1.5, OD-05); se fusionan en un solo proyecto normativo integral.
+
+Proyectos admitidos y depurados en el portafolio final: 13
+
+=== TABLA DEL PORTAFOLIO DEPURADO ===
+codigo candidato_origen                                                                                      nombre                     fuente                    seccion_origen     objetivo   categoria
+ PR-01             C-01                         Gobierno del dato maestro (lotes agrícolas, productores y clientes)     Brecha de arquitectura               Sección 5.4.2 PT-01 OD-02, OD-03 Transformar
+ PR-02      C-02 + C-11 Programa de cumplimiento de datos personales y Registro de Actividades de Tratamiento (RAT)       Obligación normativa                     Sección 4.1.5        OD-05      Operar
+ PR-03             C-03                       Capa de integración de servicios API (ERP - Planta - Campo - Aduanas)     Brecha de arquitectura               Sección 5.4.2 PT-02 OD-01, OD-03      Operar
+ PR-04      C-04 + C-05          Rediseño del portal B2B de agroexportación y consulta de embarques en autoservicio Brecha de servicio digital          Sección 6.1.7 S-01, S-02        OD-01      Crecer
+ PR-05             C-06     Planificación inteligente de rutas de acopio, cadena de frío y trazabilidad de despacho            Estrategia FODA                  Sección 3.5 E-02        OD-03 Transformar
+ PR-06             C-07                 Tablero de gestión comercial, costos por lote y rentabilidad de exportación     Brecha de arquitectura               Sección 5.4.2 PT-05        OD-02      Crecer
+ PR-07             C-08                   Mesa de servicio de TI y control centralizado de proveedores informáticos        Brecha de capacidad               Sección 4.3.5 DSS02        OD-04      Operar
+ PR-08             C-09       Continuidad de infraestructura, conmutación de enlace redundante y respaldo inmutable        Brecha de capacidad               Sección 4.3.5 DSS04        OD-04      Operar
+ PR-09             C-10                          Renovación y consolidación de la plataforma del ERP agroindustrial            Estrategia FODA                  Sección 3.5 E-04 OD-04, OD-03      Operar
+ PR-10             C-12                            Gestión del conocimiento y base de datos de configuración (CMDB)            Estrategia FODA                  Sección 3.5 E-07        OD-06      Operar
+ PR-11             C-13              Comité de gobierno e inversiones de TI (casos de negocio y actas de beneficio)        Brecha de capacidad Sección 4.3.5 EDM01, APO05, EDM02 OD-02, OD-04      Operar
+ PR-12             C-14               Instrumentación de monitoreo y disponibilidad (cámaras de frío, enlace y ERP)        Brecha de capacidad               Sección 4.3.5 DSS01        OD-04      Operar
+ PR-13             C-15      Autoservicio digital de trabajadores de campo y planta (boletas, destajo y vacaciones) Brecha de servicio digital          Sección 6.1.7 S-06, S-07 OD-01, OD-05      Crecer
+
+Por fuente admisible:
+ fuente
+Brecha de capacidad           4
+Brecha de arquitectura        3
+Estrategia FODA               3
+Brecha de servicio digital    2
+Obligación normativa          1
+
+Por categoría:
+ categoria
+Operar         8
+Crecer         3
+Transformar    2
+
+=== 3. COBERTURA DE OBJETIVOS ESTRATÉGICOS (SECCIÓN 6.2) ===
+objetivo
+OD-01    3
+OD-02    3
+OD-03    4
+OD-04    5
+OD-05    2
+OD-06    1
+-> Objetivos de la Sección 6.2 sin proyecto asociado: 0 (Ninguno, 100% cubiertos)

@@ -1,0 +1,20 @@
+﻿=== BALANCE DEL PORTAFOLIO PROPUESTO (AGROEXPORTADORA VALLE VIEJO S.A.C.) ===
+  categoria  proyectos  inversion       tco  pct_inv  pct_tco
+     Operar          8     345000 1779800.0     59.5     60.0
+     Crecer          3     146000  714500.0     25.2     24.1
+Transformar          2      89000  469750.0     15.3     15.8
+
+Contraste con las proporciones de referencia (Teoría Sección 1):
+  Operar      :  60.0 % del TCO |  59.5 % de Inv. Inicial  (referencia 50-70 %) -> DENTRO DEL RANGO
+  Crecer      :  24.1 % del TCO |  25.2 % de Inv. Inicial  (referencia 20-30 %) -> DENTRO DEL RANGO
+  Transformar :  15.8 % del TCO |  15.3 % de Inv. Inicial  (referencia 10-20 %) -> DENTRO DEL RANGO
+
+=== COMPARACIÓN CON EL BALANCE ACTUAL DE LA ORGANIZACIÓN (presupuesto_ti.csv) ===
+  Presupuesto TI 2025 Planificado (S/ 412,000.00): Operar 92.0 % (S/ 379,040.00) | Crecer 8.0 % (S/ 32,960.00) | Transformar 0.0 % (S/ 0.00)
+  Presupuesto TI 2025 Ejecutado   (S/ 414,893.28): Operar 93.2 % (S/ 386,784.97) | Crecer 6.8 % (S/ 28,108.31) | Transformar 0.0 % (S/ 0.00)
+  Portafolio PETI propuesto (TCO S/ 2,964,050) : Operar 60.0 % | Crecer 24.1 % | Transformar 15.8 %
+-> El PETI corrige el desequilibrio actual (93.2 % ejecutado en Operar, 6.8 % en Crecer y 0.0 % en Transformar)
+   llevando el portafolio a 60.0 % en Operar (ref. 50-70 %), 24.1 % en Crecer (ref. 20-30 %) y
+   15.8 % en Transformar (ref. 10-20 %), cumpliendo las tres bandas de referencia.
+
+Gráfico generado: ../graficos/PF_balance.png
